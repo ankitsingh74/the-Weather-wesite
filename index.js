@@ -64,7 +64,8 @@ function dayofTheWeek(day, month, year){
 // };
 // console.log("function call    ---------------------",dayofTheWeek())
 //function  that fetches and displays the data and add dynamically the city name with template literals
-//  const APIkey = "cf84f5d15a93485794143559230603" 
+
+//  const APIkey = "041efc35449d4a8fa0e44002230603" 
 
   function fetchWeatherData(){
      fetch(`http://api.weatherapi.com/v1/current.json?key=041efc35449d4a8fa0e44002230603&q=${cityInput}`).then(response => response.json())
